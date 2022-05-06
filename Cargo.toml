@@ -1,0 +1,13 @@
+[package]
+name = "audio_checker"
+authors = ["Rafał Mikrut"]
+version = "0.1.0"
+edition = "2021"
+description = "Library checking if audio files are broken"
+license = "MIT"
+homepage = "https://github.com/qarmin/audio_checker"
+repository = "https://github.com/qarmin/audio_checker"
+
+
+[dependencies]
+symphonia = {version="0.5", features=["mp3","aac","alac","flac","isomp4","mkv","ogg","pcm","vorbis","wav"]}
